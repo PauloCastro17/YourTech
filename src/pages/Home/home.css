@@ -1,0 +1,120 @@
+.containerHome{
+    background-color: #FF00004F;
+    width: 100%;
+}
+
+.rowHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.textoHome h1{
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textoHome span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.imageHome img{
+    width: 100%;
+}
+
+.row2Home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F0FF;
+}
+
+.texto2Home h1{
+    color: #151875;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto2Home ul li{
+    font-family: 'Lato', sans-serif;
+    color: #ACABC3;
+    list-style: none;
+}
+
+.texto2Home ul li:before {
+    content: '\2022';
+    margin: 0 2px;
+    color: #F52B70 /* cor da bolinha */
+}
+
+.image2Home img{
+    width: 55%;
+    margin: 35px ;
+}
+
+.row3Home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#produtos{
+    margin-top: 100px;
+}
+
+.row3Home h1{
+    color: #151875;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.listProduto{
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 380px;
+}
+
+
+.legendaProduto{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #0D0E43;
+    background-color: #FB2E861A;
+    margin: 25px;
+    padding: 15px;
+    width: 200px;
+}
+
+.legendaProduto p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.legenda2Produto span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+}

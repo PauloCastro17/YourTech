@@ -1,0 +1,35 @@
+.navbarHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarHeader h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    color: #0D0E43;
+}
+
+.navbarHeader ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarHeader a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbarHeader a:hover{
+    color: #FFFFFF;
+}
+
+.navbarHeader li{
+    list-style: none;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbarHeader ul{
+    margin-left: 150px;
+}
