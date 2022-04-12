@@ -12,7 +12,7 @@ Projeto está sendo desenvolvido em ReactJS, como forma de estudo.
 </p>
 
 <p>
-  <img  src="./public/ImageTwo.png.png">
+  <img  src="./public/ImageTwo.png">
 </p>
 
 <p>
