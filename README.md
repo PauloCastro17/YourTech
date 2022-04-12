@@ -7,14 +7,14 @@ Projeto está sendo desenvolvido em ReactJS, como forma de estudo.
  * REACT.js
 
 ### Página Home
-<p >
+<p>
   <img  src="./public/ImageOne.png">
 </p>
 
-<p >
+<p>
   <img  src="./public/ImageTwo.png.png">
 </p>
 
-<p >
+<p>
   <img  src="./public/ImageThree.png">
 </p>
