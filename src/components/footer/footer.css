@@ -1,0 +1,31 @@
+footer{
+    background-color: #EEEFFB;
+    padding: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parteOne h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.parteOne p{
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+    font-size: 15px;
+}
+
+.parteTwo h2, p{
+    font-family: 'Lato', sans-serif;
+}
+
+.parteTwo p{
+    color: #8A8FB9;
+}
+
+.parteTwo a{
+    text-decoration: none;
+}

@@ -1,10 +1,15 @@
 import './home.css'
 
 import NavBar from '../../components/NavBar' 
+import Footer from '../../components/footer'
 
 import cadeiraGamer from '../../assets/cadeiraGamer.png'
 import headsetPrata from '../../assets/headsetPrata.png'
 import smartWatch from '../../assets/smartWatch.png'
+
+function openProduct(){
+    window.location.href = "http://localhost:3000/produtos/:idProduto"
+}
 
 function Home(){
     return(
@@ -48,40 +53,10 @@ function Home(){
                 <h1>Conheça os produtos</h1>
                 <div className="listProduto">
                     <div className="produto">
-                        <img src={smartWatch} alt=""/>
-                        <div className="legendaProduto">
-                            <p>Smart Watch</p>
-                            <div className="legenda2Produto">
-                                <span>R$ 232.12</span>
-                                <span>Estoque: 10 unidades</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="produto">
-                        <img src={smartWatch} alt=""/>
-                        <div className="legendaProduto">
-                            <p>Smart Watch</p>
-                            <div className="legenda2Produto">
-                                <span>R$ 232.12</span>
-                                <span>Estoque: 10 unidades</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="produto">
-                        <img src={smartWatch} alt=""/>
-                        <div className="legendaProduto">
-                            <p>Smart Watch</p>
-                            <div className="legenda2Produto">
-                                <span>R$ 232.12</span>
-                                <span>Estoque: 10 unidades</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="produto">
-                        <img src={smartWatch} alt=""/>
+                        <button onClick={openProduct}>
+                            <img src={smartWatch} alt=""/>
+                            <a id="buttonProduto">Ver mais</a>
+                        </button>
                         <div className="legendaProduto">
                             <p>Smart Watch</p>
                             <div className="legenda2Produto">
@@ -93,6 +68,8 @@ function Home(){
                 </div>
             </div>
         </section>
+
+        <Footer/>
         </>
     );
 }
