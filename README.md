@@ -31,3 +31,12 @@ Projeto está sendo desenvolvido em ReactJS, como forma de estudo.
 <p>
   <img  src="./public/image6.png">
 </p>
+
+### Página Contact Us
+<p>
+  <img  src="./public/image7.png">
+</p>
+
+<p>
+  <img  src="./public/image8.png">
+</p>
