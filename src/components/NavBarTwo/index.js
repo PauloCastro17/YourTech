@@ -1,8 +1,8 @@
 import './navbar.css'
 
-function NavBar() {
+function NavBarTwo() {
     return(
-        <div className="navbarHeader">
+        <div className="navbarHeaderTwo">
             <h1>YourTech</h1>
             <ul>
                 <a href="/"><li>Home</li></a>
@@ -14,4 +14,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default NavBarTwo;

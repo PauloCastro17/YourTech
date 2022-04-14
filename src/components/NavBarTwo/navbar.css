@@ -1,48 +1,50 @@
-.navbarHeader{
+.navbarHeaderTwo{
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color:#FF00004F;
+    height: 30vh;
 }
 
-.navbarHeader h1{
+.navbarHeaderTwo h1{
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 10px;
     color: #0D0E43;
 }
 
-.navbarHeader ul{
+.navbarHeaderTwo ul{
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 
-.navbarHeader a{
+.navbarHeaderTwo a{
     text-decoration: none;
     color: #000;
 }
 
-.navbarHeader a:hover{
+.navbarHeaderTwo a:hover{
     color: #FFFFFF;
 }
 
-.navbarHeader li{
+.navbarHeaderTwo li{
     list-style: none;
     margin-left: 20px;
     font-family: 'Lato', sans-serif;
 }
 
-.navbarHeader ul{
+.navbarHeaderTwo ul{
     margin-left: 150px;
 }
 
 @media(max-width:600px){
-    .navbarHeader{
+    .navbarHeaderTwo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .navbarHeader ul, h1{
+    .navbarHeaderTwo ul, h1{
         margin-left: 0;
     }
     

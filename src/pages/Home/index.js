@@ -65,6 +65,34 @@ function Home(){
                             </div>
                         </div>
                     </div>
+
+                    <div className="produto">
+                        <button onClick={openProduct}>
+                            <img src={smartWatch} alt=""/>
+                            <a id="buttonProduto">Ver mais</a>
+                        </button>
+                        <div className="legendaProduto">
+                            <p>Smart Watch</p>
+                            <div className="legenda2Produto">
+                                <span>R$ 232.12</span>
+                                <span>Estoque: 10 unidades</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="produto">
+                        <button onClick={openProduct}>
+                            <img src={smartWatch} alt=""/>
+                            <a id="buttonProduto">Ver mais</a>
+                        </button>
+                        <div className="legendaProduto">
+                            <p>Smart Watch</p>
+                            <div className="legenda2Produto">
+                                <span>R$ 232.12</span>
+                                <span>Estoque: 10 unidades</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

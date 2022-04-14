@@ -141,3 +141,19 @@
     flex-direction: row;
     margin-bottom: 5px;
 }
+
+
+@media(max-width: 768px) {
+    .rowHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+    }
+
+    .listProduto{
+        display: grid;
+        grid-template-columns: 270px;
+    }
+}

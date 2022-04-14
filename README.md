@@ -22,3 +22,12 @@ Projeto está sendo desenvolvido em ReactJS, como forma de estudo.
 <p>
   <img  src="./public/ImageFour.png">
 </p>
+
+### Página About Us
+<p>
+  <img  src="./public/image5.png">
+</p>
+
+<p>
+  <img  src="./public/image6.png">
+</p>
