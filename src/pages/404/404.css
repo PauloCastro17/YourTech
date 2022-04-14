@@ -1,0 +1,22 @@
+.container404{
+    width: 100%;
+}
+
+.row404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.row404 img{
+    width: 450px;
+}
+
+.row404 h1{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #152970;
+}

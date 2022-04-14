@@ -40,3 +40,12 @@ Projeto está sendo desenvolvido em ReactJS, como forma de estudo.
 <p>
   <img  src="./public/image8.png">
 </p>
+
+### Página 404 (Not Found)
+<p>
+  <img  src="./public/image9.png">
+</p>
+
+<p>
+  <img  src="./public/image10.png">
+</p>
